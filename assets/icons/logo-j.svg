@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 88" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="jGrad" x1="12" y1="6" x2="58" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8fd4ff"/>
+      <stop offset="40%" stop-color="#007BFF"/>
+      <stop offset="100%" stop-color="#004aad"/>
+    </linearGradient>
+    <filter id="jGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#007BFF" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#jGlow)">
+    <path fill="url(#jGrad)" d="M48 8c-14 4-22 18-20 34 1.5 12 8 22 18 28l-10 14c-16-10-26-28-24-48C14 22 28 6 48 8Z"/>
+    <path fill="url(#jGrad)" d="M22 26c-6 18 0 38 16 50l-6 8C12 68 6 44 14 24c2-4 5-8 8-10v12Z"/>
+  </g>
+</svg>

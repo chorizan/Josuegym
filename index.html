@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Josue GYM — Disciplina, fuerza y progreso. Tu mejor versión empieza aquí en San Juan de Lurigancho.">
+  <title>Josue GYM | Disciplina · Fuerza · Progreso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Montserrat:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/icons/logo-j.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#nosotros">Saltar al contenido</a>
+
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#nosotros" class="logo" aria-label="Josue Gym inicio">
+        <img class="logo__icon" src="assets/icons/logo-j.svg" alt="" width="36" height="45" decoding="async">
+        <span class="logo__wordmark">
+          <span class="logo__josue">Josue</span>
+          <span class="logo__gym-row">
+            <span class="logo__gym">GYM</span>
+            <img class="logo__badge" src="assets/icons/dumbbell-badge.svg" alt="" width="22" height="22" decoding="async">
+          </span>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+      <nav class="nav" id="mainNav" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#nosotros" data-nav>Nosotros</a></li>
+          <li><a class="nav__link" href="#planes" data-nav>Planes</a></li>
+          <li><a class="nav__link" href="#membresias" data-nav>Membresías</a></li>
+          <li><a class="nav__link" href="#contacto" data-nav>Contacto</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--header" href="#contacto">Contactar ahora <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="nav-overlay" id="navOverlay" hidden></div>
+  </header>
+
+  <main>
+    <!-- NOSOTROS -->
+    <section class="section section--nosotros" id="nosotros" aria-labelledby="nosotros-title">
+      <div class="nosotros__viewport">
+        <div class="nosotros__bg" aria-hidden="true">
+          <div class="nosotros__stripes"></div>
+        </div>
+        <div class="nosotros__layout">
+          <div class="nosotros__content">
+            <h1 class="nosotros__title reveal" data-reveal id="nosotros-title">
+              <span class="nosotros__line">Entrena duro.</span>
+              <span class="nosotros__line nosotros__line--accent">Logra más.</span>
+            </h1>
+            <p class="nosotros__lead reveal" data-reveal>
+              Programas de entrenamiento profesional para atletas de todos los niveles.
+            </p>
+            <div class="nosotros__actions reveal" data-reveal>
+              <a class="btn btn--hero btn--primary" href="#contacto">Comenzar Entrenamiento <span aria-hidden="true">→</span></a>
+              <a class="btn btn--hero btn--outline" href="#planes">Explorar Programas</a>
+            </div>
+            <ul class="nosotros__features reveal-stagger" data-reveal>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 3h10v3.2A5 5 0 0 1 12 11a5 5 0 0 1-5-4.8V3zm2 2v1.2A3 3 0 0 0 12 9a3 3 0 0 0 3-2.8V5H9zM5 5H3v2.5A4.5 4.5 0 0 0 6.2 11.6L7 12v2H5v2h4v-2H8v-1.2l-.6-.4A2.5 2.5 0 0 1 5 7.5V5zm16 0h-2v2.5a2.5 2.5 0 0 1-2.4 2.9l-.6.4V14h-1v2h4v-2h-2v-2l.8-.4A4.5 4.5 0 0 0 21 7.5V5zM8 18h8v2H8v-2zm-1 3h10v2H7v-2z"/></svg>
+                <span>Coaching<br>personalizado</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13 2 4 14h7l-1 8 10-14h-7l0-6z"/></svg>
+                <span>Enfoque en el<br>rendimiento</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 8h2v8H3V8zm16 0h2v8h-2V8zM6 9.5h2.2v5H6v-5zm9.8 0H18v5h-2.2v-5zM9 10.5h6v3H9v-3z"/></svg>
+                <span>Entrenamiento<br>de fuerza</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 .01 20.01A10 10 0 0 0 12 2zm0 2a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm0 3a5 5 0 1 0 .01 10.01A5 5 0 0 0 12 7zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 .01 2.01A1 1 0 0 0 12 11z"/></svg>
+                <span>Programas basados<br>en objetivos</span>
+              </li>
+            </ul>
+          </div>
+          <figure class="nosotros__figure reveal" data-reveal>
+            <img
+              class="nosotros__hero-img"
+              src="assets/images/hero-atleta.png"
+              alt="Atleta entrenando con intensidad en Josue GYM"
+              width="864"
+              height="1152"
+              fetchpriority="high"
+              decoding="async"
+            >
+          </figure>
+        </div>
+      </div>
+      <div class="nosotros__stats" aria-label="Indicadores Josue GYM">
+        <div class="nosotros__stats-inner">
+          <div><strong>15+</strong><span>Entrenadores profesionales</span></div>
+          <div><strong>10+</strong><span>Años de experiencia</span></div>
+          <div><strong>12+</strong><span>Programas de entrenamiento</span></div>
+          <div><strong><span data-counter data-target="98">0</span>%</strong><span>Satisfacción de clientes</span></div>
+          <div><strong>24/7</strong><span>Soporte de entrenamiento</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANES -->
+    <section class="section section--planes" id="planes" aria-labelledby="planes-title">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <span class="section-head__eyebrow">Entrenamiento</span>
+          <h2 class="section-head__title" id="planes-title">Planes</h2>
+          <p class="section-head__desc">Rutinas diseñadas para cuerpo completo, movilidad y rendimiento. Elige tu enfoque.</p>
+        </header>
+        <div class="plans-grid reveal-stagger" data-reveal>
+          <article class="plan-card">
+            <div class="plan-card__glow" aria-hidden="true"></div>
+            <span class="plan-card__badge">Popular</span>
+            <h3 class="plan-card__name">Plan Full Body</h3>
+            <p class="plan-card__desc">Fuerza total, hipertrofia inteligente y acondicionamiento en una sola sesión explosiva.</p>
+            <p class="plan-card__price"><span class="plan-card__currency">S/</span> 249<span class="plan-card__period"> / mes</span></p>
+            <ul class="plan-card__benefits">
+              <li>3 sesiones guiadas por semana</li>
+              <li>Rutina personalizada</li>
+              <li>Seguimiento de progreso</li>
+              <li>Acceso a zona funcional</li>
+            </ul>
+            <a class="btn btn--outline plan-card__btn" href="#contacto" data-plan="Full Body">Quiero este plan</a>
+          </article>
+          <article class="plan-card">
+            <div class="plan-card__glow" aria-hidden="true"></div>
+            <h3 class="plan-card__name">Plan Yoga</h3>
+            <p class="plan-card__desc">Movilidad, respiración y control. Equilibra la intensidad con recuperación activa premium.</p>
+            <p class="plan-card__price"><span class="plan-card__currency">S/</span> 179<span class="plan-card__period"> / mes</span></p>
+            <ul class="plan-card__benefits">
+              <li>2 clases semanales</li>
+              <li>Flexibilidad y postura</li>
+              <li>Reducción de estrés</li>
+              <li>Complemento ideal al lifting</li>
+            </ul>
+            <a class="btn btn--outline plan-card__btn" href="#contacto" data-plan="Yoga">Quiero este plan</a>
+          </article>
+          <article class="plan-card plan-card--highlight">
+            <div class="plan-card__glow" aria-hidden="true"></div>
+            <span class="plan-card__badge plan-card__badge--brand">Elite</span>
+            <h3 class="plan-card__name">Plan Training</h3>
+            <p class="plan-card__desc">Performance atlética: velocidad, potencia y técnica. Para quienes juegan en serio.</p>
+            <p class="plan-card__price"><span class="plan-card__currency">S/</span> 300<span class="plan-card__period"> / mes</span></p>
+            <ul class="plan-card__benefits">
+              <li>4 sesiones de alto rendimiento</li>
+              <li>Workouts periodizados</li>
+              <li>Evaluación física inicial</li>
+              <li>Coach dedicado</li>
+            </ul>
+            <a class="btn btn--primary plan-card__btn" href="#contacto" data-plan="Training">Quiero este plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBRESÍAS -->
+    <section class="section section--membresias" id="membresias" aria-labelledby="membresias-title">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <span class="section-head__eyebrow">Acceso</span>
+          <h2 class="section-head__title" id="membresias-title">Membresías</h2>
+          <p class="section-head__desc">Elige cuánto tiempo quieres invertir en ti. Sin letras pequeñas.</p>
+        </header>
+        <div class="membership-grid reveal-stagger" data-reveal>
+          <article class="membership-card">
+            <h3 class="membership-card__name">Starter</h3>
+            <p class="membership-card__duration">1 mes</p>
+            <p class="membership-card__price"><span>S/</span> 120</p>
+            <ul class="membership-card__benefits">
+              <li>Acceso al gym en horario regular</li>
+              <li>Uso de equipamiento básico</li>
+              <li>1 evaluación express</li>
+            </ul>
+            <a class="btn btn--ghost membership-card__btn" href="#contacto" data-membership="Starter">Consultar</a>
+          </article>
+          <article class="membership-card membership-card--featured">
+            <div class="membership-card__pulse" aria-hidden="true"></div>
+            <span class="membership-card__ribbon">Recomendada</span>
+            <h3 class="membership-card__name">Pro</h3>
+            <p class="membership-card__duration">3 meses</p>
+            <p class="membership-card__price"><span>S/</span> 280</p>
+            <ul class="membership-card__benefits">
+              <li>Todo lo de Starter</li>
+              <li>10% descuento en planes</li>
+              <li>Clase grupal semanal</li>
+              <li>Locker incluido</li>
+            </ul>
+            <a class="btn btn--primary membership-card__btn" href="#contacto" data-membership="Pro">Adquirir</a>
+          </article>
+          <article class="membership-card">
+            <h3 class="membership-card__name">Anual</h3>
+            <p class="membership-card__duration">12 meses</p>
+            <p class="membership-card__price"><span>S/</span> 299</p>
+            <p class="membership-card__note">Pago único promocional</p>
+            <ul class="membership-card__benefits">
+              <li>Acceso ilimitado 12 meses</li>
+              <li>2 planes incluidos (a elegir)</li>
+              <li>Prioridad en horarios peak</li>
+              <li>Kit welcome Josue Gym</li>
+            </ul>
+            <a class="btn btn--ghost membership-card__btn" href="#contacto" data-membership="Anual">Adquirir</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section--contacto" id="contacto" aria-labelledby="contacto-title">
+      <div class="contacto__bg" aria-hidden="true"></div>
+      <div class="container contacto__grid">
+        <div class="contacto__info reveal" data-reveal>
+          <header class="section-head section-head--left">
+            <span class="section-head__eyebrow">Hablemos</span>
+            <h2 class="section-head__title" id="contacto-title">Contacto</h2>
+            <p class="section-head__desc">Escríbenos y arranca tu transformación. Estamos frente al paradero San Martín.</p>
+          </header>
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link" href="https://wa.me/51960929243" target="_blank" rel="noopener noreferrer">
+                <svg class="contact-link__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp · 960 929 243
+              </a>
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+51960929243">
+                <svg class="contact-link__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                960 929 243
+              </a>
+            </li>
+            <li>
+              <a class="contact-link" href="mailto:contacto@josuegym.pe">
+                <svg class="contact-link__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                contacto@josuegym.pe
+              </a>
+            </li>
+            <li class="contact-link contact-link--static">
+              <svg class="contact-link__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Av. Principal Mz. B Lt. 5 Campoy — San Juan de Lurigancho. Ref. frente al PARADERO SAN MARTIN, Lima, Perú 15457.
+            </li>
+          </ul>
+          <div class="socials">
+            <a class="socials__link" href="https://www.facebook.com/josuegym/?locale=es_LA" target="_blank" rel="noopener noreferrer" aria-label="Facebook Josue Gym">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a class="socials__link" href="https://www.instagram.com/josuegym.oficial?utm_source=ig_web_button_share_sheet&rpxt=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram Josue Gym">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+          <a class="btn btn--whatsapp btn--lg" id="btnContactar" href="https://wa.me/51960929243?text=Hola%20Josue%20Gym%2C%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer">
+            Contactar ahora
+          </a>
+        </div>
+        <form class="contact-form reveal" data-reveal id="contactForm" novalidate>
+          <h3 class="contact-form__title">Mensaje rápido</h3>
+          <label class="field">
+            <span class="field__label">Nombre</span>
+            <input class="field__input" type="text" name="nombre" autocomplete="name" required maxlength="80">
+          </label>
+          <label class="field">
+            <span class="field__label">Interés</span>
+            <select class="field__input" name="interes">
+              <option value="general">Información general</option>
+              <option value="full-body">Plan Full Body</option>
+              <option value="yoga">Plan Yoga</option>
+              <option value="training">Plan Training</option>
+              <option value="membresia">Membresía</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field__label">Mensaje</span>
+            <textarea class="field__input field__input--area" name="mensaje" rows="3" maxlength="500" placeholder="Cuéntanos qué buscas…"></textarea>
+          </label>
+          <button class="btn btn--primary btn--block" type="submit">Enviar por WhatsApp</button>
+          <p class="contact-form__hint">Al enviar, abriremos WhatsApp con tu mensaje. Sin backend, sin peso extra.</p>
+        </form>
+      </div>
+      <footer class="mini-footer">
+        <p>© <span id="year"></span> Josue Gym · San Juan de Lurigancho</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
